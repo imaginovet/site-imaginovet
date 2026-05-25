@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ImaginoVet — Ultrassonografia Veterinária Volante</title>
 <meta name="description" content="Ultrassonografia veterinária de qualidade direto na sua clínica. Itajaí, Balneário Camboriú e região. Dr. Gilberto de Sousa Jr. — CRMV SC-16164.">
-<link rel="icon" type="image/jpeg" href="logo_imaginovet.jpg">
+<link rel="icon" type="image/png" href="logo-imaginovet-clean.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
@@ -53,7 +53,7 @@ p{font-size:1.05rem;max-width:620px}
 .nav.scrolled{padding:.65rem 0;box-shadow:0 4px 30px rgba(0,0,0,.2)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between}
 .nav-logo{display:flex;align-items:center;gap:.7rem;text-decoration:none}
-.nav-logo img{height:36px;width:auto;border-radius:4px}
+.nav-logo img{height:36px;width:auto;filter:brightness(0) invert(1);opacity:.9}
 .nav-logo-text{font-family:'Encode Sans',sans-serif;font-weight:700;font-size:1rem;color:var(--cream);letter-spacing:.15em;text-transform:uppercase;line-height:1.2}
 .nav-logo-sub{font-size:.55rem;font-weight:400;opacity:.45;letter-spacing:.12em;display:block}
 .nav-links{display:flex;gap:2rem;list-style:none}
@@ -232,7 +232,7 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 <nav class="nav" id="nav">
 <div class="container nav-inner">
 <a href="#" class="nav-logo">
-<img src="logo_imaginovet.jpg" alt="ImaginoVet">
+<img src="logo-imaginovet-clean.png" alt="ImaginoVet">
 <div class="nav-logo-text">IMAGINOVET<span class="nav-logo-sub">Ultrassonografia Volante</span></div>
 </a>
 <ul class="nav-links">
@@ -264,7 +264,7 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 <div class="hero-content">
 <span class="overline reveal">Ultrassonografia Veterinária Volante</span>
 <div class="hero-logo-title reveal reveal-d1">
-<img src="logo_imaginovet.jpg" alt="ImaginoVet">
+<img src="logo-imaginovet-clean.png" alt="ImaginoVet">
 <h1>Diagnóstico por imagem de qualidade, direto na <em>sua clínica.</em></h1>
 </div>
 <p class="reveal reveal-d2">Seu paciente não precisa sair da clínica. O especialista vai até ele — com equipamento de alta qualidade e laudo ágil.</p>
@@ -329,12 +329,7 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 
 <div class="servico-item reveal">
 <div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-<div><h3>Emergencial (T-FAST e A-FAST)</h3><p>Protocolo de triagem rápida para detecção de líquido livre abdominal e efusão torácica em pacientes traumatizados ou em estado crítico. Avaliação focada que orienta a conduta clínica de emergência.</p></div>
-</div>
-
-<div class="servico-item reveal reveal-d1">
-<div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-<div><h3>Emergencial (G-FAST)</h3><p>Protocolo focado que combina avaliação abdominal e torácica. Triagem global para pacientes instáveis que necessitam de diagnóstico rápido e decisão terapêutica imediata.</p></div>
+<div><h3>Emergencial (FAST)</h3><p>Protocolos de triagem rápida (T-FAST, A-FAST e G-FAST) para pacientes traumatizados ou em estado crítico. Avaliação focada para detecção de líquido livre abdominal, efusão torácica e triagem global, orientando a conduta clínica e a decisão terapêutica imediata.</p></div>
 </div>
 
 <div class="servico-item reveal">
@@ -343,7 +338,7 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 </div>
 
 <div class="servico-item reveal reveal-d1">
-<div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+<div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M18 2l4 4M7.5 13.5L2 19v3h3l5.5-5.5M15 3l6 6-9 9-6-6 9-9z"/><line x1="10" y1="10" x2="6" y2="14"/></svg></div>
 <div><h3>Cistocentese Guiada</h3><p>Coleta de urina diretamente da bexiga por punção guiada por ultrassom, garantindo posicionamento preciso da agulha e reduzindo riscos de lesão tecidual.</p></div>
 </div>
 
@@ -436,10 +431,11 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 <a class="wa-float" href="#" onclick="event.preventDefault();openWhatsappModal()" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
 <!-- MODALS -->
-<div class="modal-overlay" id="whatsappModal"><div class="modal"><button class="modal-close" onclick="closeModal('whatsappModal')">✕</button><div id="whatsappForm"><h3>Antes de prosseguir</h3><p>Deixe seus dados para iniciarmos o atendimento.</p><div class="form-group"><label>Nome</label><input type="text" id="wpNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="wpTel" placeholder="(00) 00000-0000"></div><button class="btn btn-whatsapp" onclick="submitWhatsapp()">Ir para o WhatsApp →</button></div></div></div>
-<div class="modal-overlay" id="tabelaModal"><div class="modal"><button class="modal-close" onclick="closeModal('tabelaModal')">✕</button><div id="tabelaForm"><h3>Solicite a tabela de valores</h3><p>Preencha seus dados e o Dr. Gilberto entrará em contato com a tabela completa.</p><div class="form-group"><label>Nome</label><input type="text" id="tabNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="tabTel" placeholder="(00) 00000-0000"></div><div class="form-group"><label>E-mail</label><input type="email" id="tabEmail" placeholder="seu@email.com"></div><button class="btn btn-primary" onclick="submitTabela()">Enviar solicitação</button></div><div class="form-success" id="tabelaSuccess"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Pronto!</h3><p>O Dr. Gilberto entrará em contato em breve com a tabela completa de serviços e valores.</p></div></div></div>
+<div class="modal-overlay" id="whatsappModal"><div class="modal"><button class="modal-close" onclick="closeModal('whatsappModal')">✕</button><div id="whatsappForm"><h3>Antes de prosseguir</h3><p>Deixe seus dados para iniciarmos o atendimento.</p><div class="form-group"><label>Nome</label><input type="text" id="wpNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="wpTel" placeholder="(47) 93618-3480" maxlength="15" oninput="maskPhone(this)"></div><button class="btn btn-whatsapp" onclick="submitWhatsapp()">Ir para o WhatsApp →</button></div></div></div>
+<div class="modal-overlay" id="tabelaModal"><div class="modal"><button class="modal-close" onclick="closeModal('tabelaModal')">✕</button><div id="tabelaForm"><h3>Solicite a tabela de valores</h3><p>Preencha seus dados e o Dr. Gilberto entrará em contato com a tabela completa.</p><div class="form-group"><label>Nome</label><input type="text" id="tabNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="tabTel" placeholder="(47) 93618-3480" maxlength="15" oninput="maskPhone(this)"></div><div class="form-group"><label>E-mail</label><input type="email" id="tabEmail" placeholder="seu@email.com"></div><button class="btn btn-primary" onclick="submitTabela()">Enviar solicitação</button></div><div class="form-success" id="tabelaSuccess"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Pronto!</h3><p>O Dr. Gilberto entrará em contato em breve com a tabela completa de serviços e valores.</p></div></div></div>
 
 <script>
+function maskPhone(el){let v=el.value.replace(/\D/g,'');if(v.length>11)v=v.slice(0,11);if(v.length>6)v='('+v.slice(0,2)+') '+v.slice(2,7)+'-'+v.slice(7);else if(v.length>2)v='('+v.slice(0,2)+') '+v.slice(2);else if(v.length>0)v='('+v;el.value=v}
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>60));
 function toggleMobile(){document.getElementById('mobileMenu').classList.toggle('active')}
@@ -449,8 +445,8 @@ function openWhatsappModal(){document.getElementById('whatsappModal').classList.
 function openTabelaModal(){document.getElementById('tabelaModal').classList.add('active');document.body.style.overflow='hidden'}
 function closeModal(id){document.getElementById(id).classList.remove('active');document.body.style.overflow=''}
 document.querySelectorAll('.modal-overlay').forEach(o=>{o.addEventListener('click',e=>{if(e.target===o){o.classList.remove('active');document.body.style.overflow=''}})});
-function submitWhatsapp(){const n=document.getElementById('wpNome').value.trim(),t=document.getElementById('wpTel').value.trim();if(!n||!t){alert('Por favor, preencha todos os campos.');return}fetch('https://webhooks.agmilionario.com.br/webhook/23f3418a-ce62-44ed-8f65-448b6aa35ca4',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:n,telefone:t,tipo:'whatsapp'})}).catch(()=>{});window.open('https://wa.me/5547936183480?text='+encodeURIComponent('Olá, sou '+n+', telefone '+t+'. Gostaria de agendar um exame.'),'_blank');closeModal('whatsappModal');document.getElementById('wpNome').value='';document.getElementById('wpTel').value=''}
-function submitTabela(){const n=document.getElementById('tabNome').value.trim(),t=document.getElementById('tabTel').value.trim(),e=document.getElementById('tabEmail').value.trim();if(!n||!t||!e){alert('Por favor, preencha todos os campos.');return}fetch('https://webhooks.agmilionario.com.br/webhook/23f3418a-ce62-44ed-8f65-448b6aa35ca4',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:n,telefone:t,email:e,tipo:'tabela_valores'})}).then(()=>{document.getElementById('tabelaForm').style.display='none';document.getElementById('tabelaSuccess').style.display='block';setTimeout(()=>{closeModal('tabelaModal');document.getElementById('tabelaForm').style.display='block';document.getElementById('tabelaSuccess').style.display='none';document.getElementById('tabNome').value='';document.getElementById('tabTel').value='';document.getElementById('tabEmail').value=''},3000)}).catch(()=>{document.getElementById('tabelaForm').style.display='none';document.getElementById('tabelaSuccess').style.display='block';setTimeout(()=>{closeModal('tabelaModal');document.getElementById('tabelaForm').style.display='block';document.getElementById('tabelaSuccess').style.display='none'},3000)})}
+function submitWhatsapp(){const n=document.getElementById('wpNome').value.trim(),t=document.getElementById('wpTel').value.trim();if(!n||!t){alert('Por favor, preencha todos os campos.');return}fetch('https://n8n.agmilionario.com.br/webhook/6a30da4a-02d5-443d-d993120cee44',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:n,telefone:t,tipo:'whatsapp'})}).catch(()=>{});window.open('https://wa.me/5547936183480?text='+encodeURIComponent('Olá, sou '+n+', telefone '+t+'. Gostaria de agendar um exame.'),'_blank');closeModal('whatsappModal');document.getElementById('wpNome').value='';document.getElementById('wpTel').value=''}
+function submitTabela(){const n=document.getElementById('tabNome').value.trim(),t=document.getElementById('tabTel').value.trim(),e=document.getElementById('tabEmail').value.trim();if(!n||!t||!e){alert('Por favor, preencha todos os campos.');return}fetch('https://n8n.agmilionario.com.br/webhook/6a30da4a-02d5-443d-d993120cee44',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:n,telefone:t,email:e,tipo:'tabela_valores'})}).then(()=>{document.getElementById('tabelaForm').style.display='none';document.getElementById('tabelaSuccess').style.display='block';setTimeout(()=>{closeModal('tabelaModal');document.getElementById('tabelaForm').style.display='block';document.getElementById('tabelaSuccess').style.display='none';document.getElementById('tabNome').value='';document.getElementById('tabTel').value='';document.getElementById('tabEmail').value=''},3000)}).catch(()=>{document.getElementById('tabelaForm').style.display='none';document.getElementById('tabelaSuccess').style.display='block';setTimeout(()=>{closeModal('tabelaModal');document.getElementById('tabelaForm').style.display='block';document.getElementById('tabelaSuccess').style.display='none'},3000)})}
 </script>
 </body>
 </html>
