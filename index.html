@@ -78,7 +78,7 @@ p{font-size:1.05rem;max-width:620px}
 .hero h1{color:var(--cream);margin-bottom:1.6rem}
 .hero h1 em{font-style:italic;color:var(--taupe)}
 .hero-logo-title{display:flex;align-items:center;gap:1.5rem;margin-bottom:1.6rem}
-.hero-logo-title img{width:430px;height:auto;flex-shrink:0;filter:brightness(0) invert(1);opacity:.85}
+.hero-logo-title img{width:90px;height:auto;flex-shrink:0;filter:brightness(0) invert(1);opacity:.85}
 .hero p{color:rgba(246,245,243,.7);margin-bottom:2.8rem;font-size:1.15rem;line-height:1.8}
 .hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}
 .hero-line{position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(157,150,144,.25),transparent);z-index:2}
@@ -214,14 +214,14 @@ p{font-size:1.05rem;max-width:620px}
 .diff-grid{grid-template-columns:1fr}
 .regiao-content{grid-template-columns:1fr;text-align:center}.regiao-tags{justify-content:center}
 .contato-grid{grid-template-columns:1fr;gap:3rem}
-.hero-logo-title img{width:110px}
+.hero-logo-title img{width:165px}
 }
 @media(max-width:600px){
 section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4.5rem 0}
 .hero-content{padding:7rem 0 4.5rem}
 .hero-buttons{flex-direction:column}.hero-buttons .btn{width:100%;justify-content:center}
 .hero-logo-title{gap:1rem}
-.hero-logo-title img{width:90px}
+.hero-logo-title img{width:155px}
 .sobre-accent{position:static;margin-top:1rem;display:inline-block}
 }
 </style>
@@ -328,7 +328,7 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 </div>
 
 <div class="servico-item reveal">
-<div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+<div class="servico-icon"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
 <div><h3>Emergencial (FAST)</h3><p>Protocolos de triagem rápida (T-FAST, A-FAST e G-FAST) para pacientes traumatizados ou em estado crítico. Avaliação focada para detecção de líquido livre abdominal, efusão torácica e triagem global, orientando a conduta clínica e a decisão terapêutica imediata.</p></div>
 </div>
 
@@ -431,8 +431,8 @@ section,.sobre,.servicos,.como-funciona,.diferenciais,.regiao,.contato{padding:4
 <a class="wa-float" href="#" onclick="event.preventDefault();openWhatsappModal()" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
 <!-- MODALS -->
-<div class="modal-overlay" id="whatsappModal"><div class="modal"><button class="modal-close" onclick="closeModal('whatsappModal')">✕</button><div id="whatsappForm"><h3>Antes de prosseguir</h3><p>Deixe seus dados para iniciarmos o atendimento.</p><div class="form-group"><label>Nome</label><input type="text" id="wpNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="wpTel" placeholder="(47) 93618-3480" maxlength="15" oninput="maskPhone(this)"></div><button class="btn btn-whatsapp" onclick="submitWhatsapp()">Ir para o WhatsApp →</button></div></div></div>
-<div class="modal-overlay" id="tabelaModal"><div class="modal"><button class="modal-close" onclick="closeModal('tabelaModal')">✕</button><div id="tabelaForm"><h3>Solicite a tabela de valores</h3><p>Preencha seus dados e o Dr. Gilberto entrará em contato com a tabela completa.</p><div class="form-group"><label>Nome</label><input type="text" id="tabNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="tabTel" placeholder="(47) 93618-3480" maxlength="15" oninput="maskPhone(this)"></div><div class="form-group"><label>E-mail</label><input type="email" id="tabEmail" placeholder="seu@email.com"></div><button class="btn btn-primary" onclick="submitTabela()">Enviar solicitação</button></div><div class="form-success" id="tabelaSuccess"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Pronto!</h3><p>O Dr. Gilberto entrará em contato em breve com a tabela completa de serviços e valores.</p></div></div></div>
+<div class="modal-overlay" id="whatsappModal"><div class="modal"><button class="modal-close" onclick="closeModal('whatsappModal')">✕</button><div id="whatsappForm"><h3>Antes de prosseguir</h3><p>Deixe seus dados para iniciarmos o atendimento.</p><div class="form-group"><label>Nome</label><input type="text" id="wpNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="wpTel" placeholder="(47) 99678-1234" maxlength="15" oninput="maskPhone(this)"></div><button class="btn btn-whatsapp" onclick="submitWhatsapp()">Ir para o WhatsApp →</button></div></div></div>
+<div class="modal-overlay" id="tabelaModal"><div class="modal"><button class="modal-close" onclick="closeModal('tabelaModal')">✕</button><div id="tabelaForm"><h3>Solicite a tabela de valores</h3><p>Preencha seus dados e o Dr. Gilberto entrará em contato com a tabela completa.</p><div class="form-group"><label>Nome</label><input type="text" id="tabNome" placeholder="Seu nome completo"></div><div class="form-group"><label>Telefone</label><input type="tel" id="tabTel" placeholder="(47) 99678-1234" maxlength="15" oninput="maskPhone(this)"></div><div class="form-group"><label>E-mail</label><input type="email" id="tabEmail" placeholder="seu@email.com"></div><button class="btn btn-primary" onclick="submitTabela()">Enviar solicitação</button></div><div class="form-success" id="tabelaSuccess"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><h3>Pronto!</h3><p>O Dr. Gilberto entrará em contato em breve com a tabela completa de serviços e valores.</p></div></div></div>
 
 <script>
 function maskPhone(el){let v=el.value.replace(/\D/g,'');if(v.length>11)v=v.slice(0,11);if(v.length>6)v='('+v.slice(0,2)+') '+v.slice(2,7)+'-'+v.slice(7);else if(v.length>2)v='('+v.slice(0,2)+') '+v.slice(2);else if(v.length>0)v='('+v;el.value=v}
